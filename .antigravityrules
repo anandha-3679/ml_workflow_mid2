@@ -1,0 +1,7 @@
+# Global Rules
+Output unified diffs only, no entire file rewrites. Zero conversational preamble.
+
+# Python Rules
+- Enforce PEP 8 conventions.
+- All test runs must use `pytest -q`.
+- Use ruff for linting in errors-only mode (`ruff check --quiet`).
